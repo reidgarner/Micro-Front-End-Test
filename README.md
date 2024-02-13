@@ -4,17 +4,15 @@ An example eCommerce app Module Federation in a Full Site Federation configurati
 
 # Installation
 
-Install [pnpm](https://pnpm.io/) then run the following commands:
-
 ```bash
-pnpm i
-pnpm pkg:install
-pnpm dev
+npm i
+npm pkg:install
+npm dev
 ```
 
 The visit the [home page](http://localhost:3000/).
 
-\pagebreak
+<div style="page-break-after: always;"></div>
 
 # Micro Front Ends
 
