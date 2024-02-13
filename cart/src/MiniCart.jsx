@@ -16,11 +16,13 @@ export default function MiniCart() {
 
   if (!items) return null;
 
+  const quantity = items.reduce((total, obj) => total + obj.quantity, 0);
+
   return (
     <>
       <span onClick={() => setShowCart(!showCart)} id="showcart_span">
         <i className="text-2xl ri-shopping-cart-2-fill" id="showcart" />
-        {items.length}
+        {quantity}
       </span>
       {showCart && (
         <>
